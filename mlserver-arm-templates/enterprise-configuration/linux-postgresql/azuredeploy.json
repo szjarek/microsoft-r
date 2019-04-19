@@ -502,7 +502,8 @@
                   "publisher": "Microsoft.OSTCExtensions",
                   "settings": {
                     "fileUris": [
-                      "[concat(variables('scriptsUri'), 'ConfigureComputeNode.py')]"                      
+                      "[concat(variables('scriptsUri'), 'ConfigureComputeNode.py')]",
+                      "[concat(variables('scriptsUri'), 'install_packages.R')]"                      
                     ]
                   },
                   "typeHandlerVersion": "1.4",
